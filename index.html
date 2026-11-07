@@ -205,9 +205,9 @@ input:focus, button:focus-visible { outline: none; }
 <body class="relative selection:bg-cyan-500 selection:text-black">
 <!--
   LINKS TO SWAP EACH WEEK (search for these IDs):
-  Spotlight video (YouTube): KQ3uGn3-tLk  | appears in the thumbnail, the embed and the button
-  Podcast episode on YouTube: u1492bfwiiw
-  Podcast episode on Spotify: 4SYPxjTVuRxG4yJvtT0Wkx
+  Spotlight video (YouTube): 3kCd6o-nQNk  | appears in the thumbnail, the embed and the button (Week 28 film)
+  Podcast episode on YouTube: aW_bHR4npjE
+  Podcast episode on Spotify: 6jnwk3KDRAayqYQa5Ps4L5
 -->
 <script>document.documentElement.classList.add('js');</script>
 
@@ -233,6 +233,7 @@ input:focus, button:focus-visible { outline: none; }
       <!-- Desktop nav -->
       <nav class="hidden lg:flex items-center gap-7 font-display text-[13px] text-slate-300">
         <a href="#featured" class="nav-link hover:text-white transition">Featured</a>
+        <a href="#weekly" class="nav-link hover:text-white transition">Weekly</a>
         <a href="#method" class="nav-link hover:text-white transition">Method</a>
         <a href="#clock" class="nav-link hover:text-white transition">The Clock</a>
         <a href="#episodes-section" class="nav-link hover:text-white transition">Episodes</a>
@@ -259,6 +260,7 @@ input:focus, button:focus-visible { outline: none; }
   <div id="mobileMenu" class="lg:hidden hidden bg-[#06101e]/95 backdrop-blur-xl border-t border-white/5">
     <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col gap-1">
       <a href="#featured" class="mobile-nav-link px-3 py-2.5 rounded-lg text-sm text-slate-300 hover:text-white hover:bg-white/5 transition" onclick="closeMobileMenu()">Featured</a>
+      <a href="#weekly" class="mobile-nav-link px-3 py-2.5 rounded-lg text-sm text-slate-300 hover:text-white hover:bg-white/5 transition" onclick="closeMobileMenu()">Weekly</a>
       <a href="#method" class="mobile-nav-link px-3 py-2.5 rounded-lg text-sm text-slate-300 hover:text-white hover:bg-white/5 transition" onclick="closeMobileMenu()">Method</a>
       <a href="#clock" class="mobile-nav-link px-3 py-2.5 rounded-lg text-sm text-slate-300 hover:text-white hover:bg-white/5 transition" onclick="closeMobileMenu()">The Clock</a>
       <a href="#episodes-section" class="mobile-nav-link px-3 py-2.5 rounded-lg text-sm text-slate-300 hover:text-white hover:bg-white/5 transition" onclick="closeMobileMenu()">Episodes</a>
@@ -320,8 +322,8 @@ input:focus, button:focus-visible { outline: none; }
           </div>
 
           <!-- Spotlight Photo (YouTube thumbnail) -->
-          <button type="button" onclick="openModal('storyModal')" class="block w-full rounded-xl overflow-hidden mb-5 aspect-video relative" aria-label="Play the Lift Test video">
-            <img src="https://i.ytimg.com/vi/KQ3uGn3-tLk/hqdefault.jpg" alt="The Lift Test applied to Lodwar, Turkana" class="w-full h-full object-cover">
+          <button type="button" onclick="openModal('storyModal')" class="block w-full rounded-xl overflow-hidden mb-5 aspect-video relative" aria-label="Play the Malindi film">
+            <img src="https://i.ytimg.com/vi/3kCd6o-nQNk/hqdefault.jpg" alt="Malindi, and how much runway cargo needs: the weekly film" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-gradient-to-t from-[#040914]/60 via-transparent to-transparent"></div>
             <div class="absolute inset-0 flex items-center justify-center">
               <i data-lucide="play-circle" class="w-16 h-16 text-white/80"></i>
@@ -329,10 +331,10 @@ input:focus, button:focus-visible { outline: none; }
           </button>
 
           <h2 class="font-display text-xl sm:text-2xl font-bold text-white mb-3">
-            This Week's Spotlight: The Lift Test, Applied to Lodwar
+            This Week's Spotlight: Malindi, and How Much Runway Cargo Needs
           </h2>
           <p class="font-body text-sm text-slate-300/80 leading-relaxed mb-6">
-            Should an airstrip carry cargo? We put Lodwar, Turkana to the Lift Test: seven questions, a draft score built from public information, and the conditions that would make cargo work. Corrections welcome.
+            A longer runway can help cargo too. The question is how much, and for which aircraft. We put Malindi, Kilifi County to the Lift Test: seven questions, a draft score built from public information, and the conditions that would make cargo work. Corrections welcome.
           </p>
 
           <div class="flex flex-wrap gap-3">
@@ -340,12 +342,49 @@ input:focus, button:focus-visible { outline: none; }
               <i data-lucide="play" class="w-4 h-4"></i>
               Watch the full story
             </button>
-            <a href="week27.html" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium border border-slate-700 text-slate-300 hover:text-white hover:border-cyan-400/50 transition"><i data-lucide="layout-list" class="w-4 h-4"></i> Read the full week</a>
-            <a href="https://youtu.be/KQ3uGn3-tLk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium border border-slate-700 text-slate-300 hover:text-white hover:border-cyan-400/50 transition">
+            <a href="week28.html" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium border border-slate-700 text-slate-300 hover:text-white hover:border-cyan-400/50 transition"><i data-lucide="layout-list" class="w-4 h-4"></i> Read the full week</a>
+            <a href="https://youtu.be/3kCd6o-nQNk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium border border-slate-700 text-slate-300 hover:text-white hover:border-cyan-400/50 transition">
               <i data-lucide="external-link" class="w-4 h-4"></i>
               Open on YouTube
             </a>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WEEKLY FEATURES -->
+  <section id="weekly" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+    <div class="reveal">
+      <h2 class="font-display text-xl font-semibold text-white mb-2 text-center">Weekly Features</h2>
+      <p class="font-body text-sm text-slate-400 text-center max-w-2xl mx-auto mb-8">One airstrip a week, told through slides, a briefing, a quiz, a podcast and a film. Each week has its own page, with the score, the sources and a place to send corrections.</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
+        <a href="week28.html" class="card-border rounded-xl p-4 flex gap-4 hover:border-cyan-400/40 transition">
+          <img src="week28-slide-1.webp" alt="Week 28: Malindi, scored" loading="lazy" class="w-24 sm:w-28 shrink-0 self-start rounded-lg border border-white/10">
+          <div class="min-w-0">
+            <span class="font-mono text-[10px] tracking-[.2em] text-gold-accent">WEEK 28 &middot; LATEST</span>
+            <h3 class="font-display text-base font-semibold text-white mt-2 mb-1">Malindi, Kilifi County</h3>
+            <p class="text-xs text-slate-400 leading-relaxed mb-3">How much runway does cargo need, and for which aircraft?</p>
+            <span class="inline-block px-2.5 py-1 rounded-full text-[10px] font-semibold uppercase tracking-wider bg-amber-500/10 text-amber-400 border border-amber-500/20">Draft score 8 / 14 &middot; Conditional</span>
+          </div>
+        </a>
+        <a href="week27.html" class="card-border rounded-xl p-4 flex gap-4 hover:border-cyan-400/40 transition">
+          <img src="week27-slide-1.webp" alt="Week 27: Lodwar, scored" loading="lazy" class="w-24 sm:w-28 shrink-0 self-start rounded-lg border border-white/10">
+          <div class="min-w-0">
+            <span class="font-mono text-[10px] tracking-[.2em] text-gold-accent">WEEK 27</span>
+            <h3 class="font-display text-base font-semibold text-white mt-2 mb-1">Lodwar, Turkana</h3>
+            <p class="text-xs text-slate-400 leading-relaxed mb-3">Should an airstrip carry cargo?</p>
+            <span class="inline-block px-2.5 py-1 rounded-full text-[10px] font-semibold uppercase tracking-wider bg-amber-500/10 text-amber-400 border border-amber-500/20">Draft score 9 / 14 &middot; Conditional</span>
+          </div>
+        </a>
+      </div>
+      <div class="max-w-3xl mx-auto mt-8">
+        <p class="font-mono text-[10px] tracking-[.22em] text-gold-accent text-center mb-3">FOUR FIXED POINTS IN EVERY WEEK</p>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div class="rounded-xl border border-white/10 bg-white/5 p-3 text-center"><span class="font-mono text-[10px] tracking-[.2em] text-cyan-400">TUESDAY</span><p class="text-xs text-slate-300 mt-1">The Axis Brief</p></div>
+          <div class="rounded-xl border border-white/10 bg-white/5 p-3 text-center"><span class="font-mono text-[10px] tracking-[.2em] text-cyan-400">WEDNESDAY</span><p class="text-xs text-slate-300 mt-1">The quiz</p></div>
+          <div class="rounded-xl border border-white/10 bg-white/5 p-3 text-center"><span class="font-mono text-[10px] tracking-[.2em] text-cyan-400">THURSDAY</span><p class="text-xs text-slate-300 mt-1">The score and The Axis Frequency</p></div>
+          <div class="rounded-xl border border-white/10 bg-white/5 p-3 text-center"><span class="font-mono text-[10px] tracking-[.2em] text-cyan-400">SATURDAY</span><p class="text-xs text-slate-300 mt-1">The weekly film</p></div>
         </div>
       </div>
     </div>
@@ -440,7 +479,7 @@ input:focus, button:focus-visible { outline: none; }
           </div>
           <div class="accordion-content mt-3 pl-8">
             <p class="text-xs text-slate-400 leading-relaxed">Airstrips, counties and hubs, examined through one question: what must be true at home before regional and continental links pay off? Case studies from the farm gate to the market, with the conditions set out plainly.</p>
-            <a href="week27.html" onclick="event.stopPropagation()" class="inline-flex items-center gap-1.5 mt-3 text-xs font-medium text-cyan-400 hover:text-cyan-300 transition">Latest: Week 27, Lodwar <span aria-hidden="true">&rarr;</span></a>
+            <a href="week28.html" onclick="event.stopPropagation()" class="inline-flex items-center gap-1.5 mt-3 text-xs font-medium text-cyan-400 hover:text-cyan-300 transition">Latest: Week 28, Malindi <span aria-hidden="true">&rarr;</span></a>
           </div>
         </div>
 
@@ -458,7 +497,7 @@ input:focus, button:focus-visible { outline: none; }
           </div>
           <div class="accordion-content mt-3 pl-8">
             <p class="text-xs text-slate-400 leading-relaxed">Our open seven-question draft score for airstrips and corridors, built from public information. Every score is published with its conditions, and every correction is logged with its date.</p>
-            <a href="week27.html" onclick="event.stopPropagation()" class="inline-flex items-center gap-1.5 mt-3 text-xs font-medium text-cyan-400 hover:text-cyan-300 transition">Latest: Lodwar scored, 9 out of 14 <span aria-hidden="true">&rarr;</span></a>
+            <a href="week28.html" onclick="event.stopPropagation()" class="inline-flex items-center gap-1.5 mt-3 text-xs font-medium text-cyan-400 hover:text-cyan-300 transition">Latest: Malindi scored, 8 out of 14 <span aria-hidden="true">&rarr;</span></a>
           </div>
         </div>
 
@@ -494,7 +533,7 @@ input:focus, button:focus-visible { outline: none; }
           </div>
           <div class="accordion-content mt-3 pl-8">
             <p class="text-xs text-slate-400 leading-relaxed">Airlines, freighters, cold chain and market moves across East Africa. Every story is read through our three lenses, so you get analysis, not only headlines.</p>
-            <a href="week27.html" onclick="event.stopPropagation()" class="inline-flex items-center gap-1.5 mt-3 text-xs font-medium text-cyan-400 hover:text-cyan-300 transition">Week 27: Lodwar through our lens <span aria-hidden="true">&rarr;</span></a>
+            <a href="week28.html" onclick="event.stopPropagation()" class="inline-flex items-center gap-1.5 mt-3 text-xs font-medium text-cyan-400 hover:text-cyan-300 transition">Week 28: Malindi through our lens <span aria-hidden="true">&rarr;</span></a>
           </div>
         </div>
 
@@ -512,7 +551,7 @@ input:focus, button:focus-visible { outline: none; }
           </div>
           <div class="accordion-content mt-3 pl-8">
             <p class="text-xs text-slate-400 leading-relaxed">The Thursday podcast and the weekly film, where the lenses meet, plus special reports on policy, infrastructure and emerging technology in air cargo.</p>
-            <a href="week27.html" onclick="event.stopPropagation()" class="inline-flex items-center gap-1.5 mt-3 text-xs font-medium text-cyan-400 hover:text-cyan-300 transition">Latest: Week 27, Lodwar <span aria-hidden="true">&rarr;</span></a>
+            <a href="week28.html" onclick="event.stopPropagation()" class="inline-flex items-center gap-1.5 mt-3 text-xs font-medium text-cyan-400 hover:text-cyan-300 transition">Latest: Week 28, Malindi <span aria-hidden="true">&rarr;</span></a>
           </div>
         </div>
       </div>
@@ -535,18 +574,21 @@ input:focus, button:focus-visible { outline: none; }
               <span class="eq-bar w-1 bg-cyan-400 rounded-full" style="height:10px"></span>
             </div>
           </div>
-          <span class="text-xs text-slate-500 font-mono">Latest: Episode 4</span>
+          <span class="text-xs text-slate-500 font-mono">Latest: Episode 5</span>
         </div>
-        <h3 class="font-display text-lg font-semibold text-white mb-2">The Axis Frequency</h3>
+        <div class="flex items-center gap-3 mb-2">
+          <img src="logo-axis-frequency.webp" alt="The Axis Frequency" width="56" height="56" class="w-14 h-14 shrink-0">
+          <h3 class="font-display text-lg font-semibold text-white">The Axis Frequency</h3>
+        </div>
         <p class="text-xs text-slate-400 leading-relaxed mb-5">Our Thursday podcast: the week's East African cargo stories, decoded through Domestic before Continental, the Lift Test and Put the Clock On It.</p>
         <div class="rounded-xl overflow-hidden mb-4">
-          <iframe src="https://open.spotify.com/embed/episode/4SYPxjTVuRxG4yJvtT0Wkx" title="The Axis Frequency on Spotify" width="100%" height="152" frameborder="0" allowtransparency="true" allow="encrypted-media" loading="lazy" style="border-radius:12px"></iframe>
+          <iframe src="https://open.spotify.com/embed/episode/6jnwk3KDRAayqYQa5Ps4L5" title="The Axis Frequency on Spotify" width="100%" height="152" frameborder="0" allowtransparency="true" allow="encrypted-media" loading="lazy" style="border-radius:12px"></iframe>
         </div>
         <div class="flex flex-wrap gap-2">
-          <a href="https://open.spotify.com/episode/4SYPxjTVuRxG4yJvtT0Wkx" target="_blank" rel="noopener noreferrer" class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2 rounded-full text-xs font-medium border border-cyan-500/30 text-cyan-400 hover:bg-cyan-500/10 transition">
+          <a href="https://open.spotify.com/episode/6jnwk3KDRAayqYQa5Ps4L5" target="_blank" rel="noopener noreferrer" class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2 rounded-full text-xs font-medium border border-cyan-500/30 text-cyan-400 hover:bg-cyan-500/10 transition">
             <i data-lucide="headphones" class="w-3.5 h-3.5"></i> Listen on Spotify
           </a>
-          <a href="https://youtu.be/u1492bfwiiw" target="_blank" rel="noopener noreferrer" class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2 rounded-full text-xs font-medium border border-cyan-500/30 text-cyan-400 hover:bg-cyan-500/10 transition">
+          <a href="https://youtu.be/aW_bHR4npjE" target="_blank" rel="noopener noreferrer" class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2 rounded-full text-xs font-medium border border-cyan-500/30 text-cyan-400 hover:bg-cyan-500/10 transition">
             <i data-lucide="play" class="w-3.5 h-3.5"></i> Watch on YouTube
           </a>
         </div>
@@ -657,11 +699,11 @@ input:focus, button:focus-visible { outline: none; }
 <div id="storyModal" class="fixed inset-0 z-[100] hidden items-center justify-center p-4 modal-backdrop" onclick="closeModalOutside(event, 'storyModal')">
   <div class="bg-[#0b1626] border border-white/10 rounded-2xl p-6 sm:p-8 max-w-2xl w-full shadow-2xl transform transition-all" onclick="event.stopPropagation()">
     <div class="flex items-center justify-between mb-6">
-      <h3 class="font-display text-lg font-semibold text-white">The Lift Test: Lodwar</h3>
+      <h3 class="font-display text-lg font-semibold text-white">Malindi: the weekly film</h3>
       <button onclick="closeModal('storyModal')" class="text-slate-400 hover:text-white transition"><i data-lucide="x" class="w-5 h-5"></i></button>
     </div>
     <div class="aspect-video rounded-xl mb-5 relative overflow-hidden bg-black">
-      <iframe data-src="https://www.youtube-nocookie.com/embed/KQ3uGn3-tLk?rel=0" title="The Lift Test: Lodwar" class="absolute inset-0 w-full h-full" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe data-src="https://www.youtube-nocookie.com/embed/3kCd6o-nQNk?rel=0" title="Malindi: the weekly film" class="absolute inset-0 w-full h-full" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <p class="text-[11px] text-slate-500 leading-relaxed mb-4">Draft score from public information. The Lift Test is an in-house editorial framework, not an official industry or regulatory metric. Corrections welcome.</p>
     <button onclick="closeModal('storyModal')" class="w-full inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold bg-cyan-500 text-[#04101e] hover:bg-cyan-400 transition">
