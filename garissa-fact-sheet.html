@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Garissa Airstrip Fact Sheet | Aero Axis Link</title>
+<meta name="description" content="A one-page, sourced fact sheet on Garissa Airstrip: service, cargo limit, runway, the draft Lift Test score and what would have to be true. Draft from public information. Corrections welcome.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#040914; --card:#0b1626; --line:rgba(148,163,184,.18);
+  --text:#e2e8f0; --mute:#94a3b8; --faint:#64748b;
+  --cyan:#22d3ee; --gold:#d4af37; --amber:#f59e0b;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.55;
+  background-image:radial-gradient(circle at 12% 0%,rgba(34,211,238,.10),transparent 40%),radial-gradient(circle at 92% 6%,rgba(212,175,55,.10),transparent 38%)}
+.wrap{max-width:860px;margin:0 auto;padding:28px 16px 48px}
+a{color:var(--cyan);text-decoration:none}
+a:hover{text-decoration:underline}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:22px}
+.brand{display:flex;align-items:center;gap:10px;color:var(--text);font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:14px}
+.brand img{height:40px;width:auto}
+.kicker{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(28px,6vw,40px);line-height:1.1;color:#fff;margin:6px 0 8px}
+.sub{color:var(--mute);font-size:14px;max-width:62ch}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 4px}
+.chip{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:999px;border:1px solid var(--line);color:var(--mute)}
+.chip.cy{color:var(--cyan);border-color:rgba(34,211,238,.35);background:rgba(34,211,238,.08)}
+.chip.am{color:#fbbf24;border-color:rgba(245,158,11,.4);background:rgba(245,158,11,.08)}
+.chip.go{color:var(--gold);border-color:rgba(212,175,55,.45);background:rgba(212,175,55,.08)}
+.rule{height:1px;margin:22px 0;background:linear-gradient(90deg,transparent,rgba(34,211,238,.35),rgba(212,175,55,.7),rgba(34,211,238,.35),transparent)}
+h2{font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:600;color:#fff;margin-bottom:4px}
+.lede{color:var(--mute);font-size:13px;margin-bottom:12px}
+.card{background:linear-gradient(160deg,rgba(14,29,51,.85),rgba(6,14,26,.75));border:1px solid var(--line);border-radius:14px;padding:6px 16px}
+table{width:100%;border-collapse:collapse}
+td,th{padding:11px 8px 11px 0;vertical-align:top;border-bottom:1px solid rgba(255,255,255,.06);font-size:13.5px;text-align:left}
+tr:last-child td{border-bottom:none}
+th{font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);padding-top:12px;padding-bottom:6px}
+.k{font-family:'Space Grotesk',sans-serif;font-weight:600;color:#fff;white-space:nowrap;padding-right:14px}
+.n{font-family:'JetBrains Mono',monospace;color:var(--faint);font-size:11px;width:22px}
+.pts{font-family:'Space Grotesk',sans-serif;font-weight:600;color:var(--gold);white-space:nowrap;padding-right:12px}
+.tag{display:inline-block;min-width:22px;text-align:center;font-family:'JetBrains Mono',monospace;font-weight:600;font-size:12px;padding:1px 7px;border-radius:6px;border:1px solid}
+.tag.S{color:#4ade80;border-color:rgba(74,222,128,.45);background:rgba(74,222,128,.08)}
+.tag.E{color:#fbbf24;border-color:rgba(251,191,36,.45);background:rgba(251,191,36,.08)}
+.tag.Q{color:#f87171;border-color:rgba(248,113,113,.45);background:rgba(248,113,113,.08)}
+.src{color:var(--faint);font-size:12px}
+.score{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin:6px 0 10px}
+.big{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:44px;color:var(--gold);line-height:1}
+.big small{font-size:20px;color:var(--mute);font-weight:500}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.box{border:1px solid var(--line);border-radius:14px;padding:14px 16px;background:rgba(11,22,38,.7)}
+.box h3{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:600;color:#fff;margin-bottom:8px}
+.box ol,.box ul{margin-left:18px;font-size:13.5px;color:var(--text)}
+.box li{margin:4px 0}
+.note{font-size:11.5px;color:var(--faint);line-height:1.6;margin-top:10px}
+.foot{margin-top:26px;font-size:11.5px;color:var(--faint);line-height:1.65;border-top:1px solid var(--line);padding-top:16px}
+.foot strong{color:var(--mute)}
+@media (max-width:640px){
+  .grid2{grid-template-columns:1fr}
+  .k{white-space:normal}
+  td.hide-sm,th.hide-sm{display:none}
+}
+@media print{
+  @page{size:A4;margin:12mm}
+  :root{--bg:#fff;--text:#0f172a;--mute:#334155;--faint:#475569;--line:#cbd5e1;--cyan:#0369a1;--gold:#92710a}
+  body{background:#fff;color:#0f172a;font-size:11px}
+  .card,.box{background:#fff;border-color:#cbd5e1}
+  h1,h2,.box h3,.k{color:#0f172a}
+  .rule{background:#cbd5e1}
+  a{color:#0369a1}
+  .wrap{padding:0;max-width:none}
+  td,th{padding:6px 6px 6px 0;font-size:10.5px}
+  .tag.S{color:#166534;background:#fff}.tag.E{color:#854d0e;background:#fff}.tag.Q{color:#991b1b;background:#fff}
+  .big{color:#92710a}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="top">
+    <a class="brand" href="index.html"><img src="logo-emblem.webp" alt="Aero Axis Link"><span>Aero Axis Link</span></a>
+    <span class="kicker">Airstrip fact sheet</span>
+  </div>
+
+  <div class="kicker">Domestic before Continental &middot; Week 29</div>
+  <h1>Garissa Airstrip</h1>
+  <p class="sub">Garissa County, Kenya. One page of sourced facts, what is still unknown, and what would have to be true for cargo to work. Built from public information.</p>
+  <div class="meta">
+    <span class="chip cy">The Lift Test</span>
+    <span class="chip am">Draft from public information</span>
+    <span class="chip go">As of 11 Nov 2026</span>
+  </div>
+
+  <div class="rule"></div>
+
+  <h2>At a glance</h2>
+  <p class="lede">Each fact carries an evidence tag: <span class="tag S">S</span> sourced from a named public document, <span class="tag E">E</span> estimate from public information, <span class="tag Q">?</span> unknown.</p>
+  <div class="card">
+    <table>
+      <tr><th>Fact</th><th>What we found</th><th class="hide-sm">Source</th><th></th></tr>
+      <tr><td class="k">Service</td><td>Skyward Airlines, Nairobi (Wilson) to Garissa, four flights a week: Monday, Wednesday, Friday, Sunday. Published times 11:00 and 11:50.</td><td class="src hide-sm">Skyward schedule</td><td><span class="tag S">S</span></td></tr>
+      <tr><td class="k">Time</td><td>About 50 minutes by air, against roughly six hours by road.</td><td class="src hide-sm">Skyward schedule; road time as reported</td><td><span class="tag S">S</span></td></tr>
+      <tr><td class="k">Cargo</td><td>Up to 350 kg per shipment. One source so far.</td><td class="src hide-sm">STAT Times, 13 Aug 2026</td><td><span class="tag S">S</span></td></tr>
+      <tr><td class="k">Aircraft</td><td>The aircraft on this route is not stated in the sources we found.</td><td class="src hide-sm">Open question</td><td><span class="tag Q">?</span></td></tr>
+      <tr><td class="k">Runway</td><td>Reported at 1.2 km by 23 m. Earlier plans spoke of 1.2 to 1.4 km, so reports differ.</td><td class="src hide-sm">Press reports</td><td><span class="tag E">E</span></td></tr>
+      <tr><td class="k">Upgrade</td><td>Sh 710 million, jointly funded. The county built the terminal and KAA extended the runway.</td><td class="src hide-sm">Press reports</td><td><span class="tag S">S</span></td></tr>
+      <tr><td class="k">Cargo handler</td><td>No dedicated cargo handler reported at Garissa yet.</td><td class="src hide-sm">Press reports</td><td><span class="tag E">E</span></td></tr>
+      <tr><td class="k">Backhaul ideas</td><td>The county has a leather plan (June 2026) but names no tannery or timeline. We have not found a confirmed export abattoir. Is there one?</td><td class="src hide-sm">County and press reports</td><td><span class="tag Q">?</span></td></tr>
+      <tr><td class="k">KAA band</td><td>Garissa is in the regional airports premises schedule (Part X) of KAA's draft Order. It is not named in the band list, so we read it as Band F.</td><td class="src hide-sm">KAA draft Commercial Charges Order 2026</td><td><span class="tag E">E</span></td></tr>
+    </table>
+  </div>
+
+  <div class="rule"></div>
+
+  <h2>Which aircraft fit one runway?</h2>
+  <p class="lede">Reported runway length: 1.2 km. Take-off distances below are manufacturer figures at sea level, standard day.</p>
+  <div class="card">
+    <table>
+      <tr><td class="k">Cessna Grand Caravan EX</td><td>about 658 m</td><td class="src hide-sm">Manufacturer figure</td></tr>
+      <tr><td class="k">Dash 8-400</td><td>about 1,277 m at 29,574 kg maximum take-off weight</td><td class="src hide-sm">De Havilland spec sheet, July 2026</td></tr>
+      <tr><td class="k">ATR 72-600F</td><td>about 1,315 m at full weight</td><td class="src hide-sm">Manufacturer figure</td></tr>
+    </table>
+  </div>
+  <p class="note">Heat and altitude lengthen real take-off distances, and lighter loads shorten them. Skyward owns a refurbished Dash 8-400, but the aircraft on the Garissa route is not stated in the sources, so we do not name one.</p>
+
+  <div class="rule"></div>
+
+  <div class="score">
+    <div class="big">7<small> / 14</small></div>
+    <div><span class="chip go">Draft score</span> <span class="chip">Conditional</span><div class="src" style="margin-top:6px">Bands: 11 to 14 Cargo-led &middot; 7 to 10 Conditional &middot; 0 to 6 People-first</div></div>
+  </div>
+  <div class="card">
+    <table>
+      <tr><td class="n">1</td><td class="k">Value</td><td class="pts">1 / 2</td><td><span class="tag E">E</span></td><td>Mixed. Time-sensitive goods have value; livestock and leather are plans, not flows yet.</td></tr>
+      <tr><td class="n">2</td><td class="k">Time</td><td class="pts">2 / 2</td><td><span class="tag S">S</span></td><td>Strong. About 50 minutes by air against roughly six hours by road.</td></tr>
+      <tr><td class="n">3</td><td class="k">Road gap</td><td class="pts">1 / 2</td><td><span class="tag E">E</span></td><td>A long road trip, though the road is an alternative that already works.</td></tr>
+      <tr><td class="n">4</td><td class="k">Anchor</td><td class="pts">1 / 2</td><td><span class="tag Q">?</span></td><td>Open question. We found no named buyer with steady volume.</td></tr>
+      <tr><td class="n">5</td><td class="k">Backhaul</td><td class="pts">0 / 2</td><td><span class="tag Q">?</span></td><td>Open question. We found no confirmed cargo to fly out.</td></tr>
+      <tr><td class="n">6</td><td class="k">Passengers</td><td class="pts">1 / 2</td><td><span class="tag E">E</span></td><td>Four flights a week; passenger loads are not published.</td></tr>
+      <tr><td class="n">7</td><td class="k">Aircraft fit</td><td class="pts">1 / 2</td><td><span class="tag S">S</span></td><td>Three aircraft fit one reported runway; the route aircraft is not stated.</td></tr>
+    </table>
+  </div>
+  <p class="note">A middling score is not a failure: many strips keep people connected and safe. Authorities validate facts, not scores. Where public evidence is missing, we score conservatively and mark the question; scores rise when the evidence appears.</p>
+
+  <div class="rule"></div>
+
+  <div class="grid2">
+    <div class="box">
+      <h3>What would have to be true</h3>
+      <ol>
+        <li>A named anchor buyer with steady volume</li>
+        <li>A confirmed backhaul: cargo that flies out of Garissa</li>
+        <li>Passengers sharing the cost of the schedule</li>
+      </ol>
+      <p class="note">If these are confirmed, Garissa could move toward 10. That is a condition, not a forecast.</p>
+    </div>
+    <div class="box">
+      <h3>Open questions we would welcome help on</h3>
+      <ul>
+        <li>Which aircraft flies the route?</li>
+        <li>Is the runway 1.2 km or longer?</li>
+        <li>Is there an export abattoir or tannery planned, and when?</li>
+        <li>Who handles cargo at Garissa?</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="foot">
+    <p><strong>Thank you</strong> to Kenya Airports Authority, KCAA, Garissa County and Skyward Airlines for the work on Garissa. This is a draft from public information; corrections are very welcome.</p>
+    <p style="margin-top:8px">The Lift Test is an in-house editorial framework developed by Aero Axis Link. It is not an official industry or regulatory metric. Take-off figures are manufacturer figures and are not a flight plan.</p>
+    <p style="margin-top:8px"><a href="index.html">aeroaxislink.com</a> &middot; Aero Axis Link, East Africa's cargo voice &middot; [email]</p>
+  </div>
+
+</div>
+</body>
+</html>
